@@ -1,7 +1,8 @@
 import argparse
-from google import genai
 import os
 import sys
+
+from google import genai
 
 def translate_text(client, text, target_lang, model):
     prompt = f"""
